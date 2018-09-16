@@ -18,3 +18,6 @@ to
 CONFIG_PLATFORM_I386_PC = n
 CONFIG_PLATFORM_ARM_RPI = y
 
+Testing de SD Card performance:
+
+curl https://raw.githubusercontent.com/geerlingguy/raspberry-pi-dramble/master/setup/benchmarks/microsd-benchmarks.sh | sudo bash
